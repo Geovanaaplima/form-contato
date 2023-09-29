@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+#area #formulario
+{
+    position: absolute;
+    display: block;
+}
+#content
+{
+    position: absolute;
+    left: 19px;
+    margin-right: 5px;
+}
+#email
+{
+    background-color: rgb(172, 127, 255);
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+#subject
+{
+    background-color: rgb(172, 127, 255);
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+#content
+{
+    background-color: rgb(172, 127, 255);
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 225px;
+}
+#textarea
+{
+    position: absolute;
+    background-color: rgb(172, 127, 255);
+}
+
+#formulario button
+{
+    border-style: dashed;
+    /* position: absolute; */
+    bottom: 0.5em;
+    right: 10px;
+    background-color: rgb(172, 127, 255);
+}
