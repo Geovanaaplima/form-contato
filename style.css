@@ -1,53 +1,60 @@
-h1{
+button{
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 5px;
+    top: 10px;
     text-align: center;
-    color: blue;
 }
-#area #formulario
-{
-    position: absolute;
-    display: block;
+label{
+    padding: 4px;
+    border-radius: 0.5rem;
+    left: 480px;
 }
-#content
-{
-    position: absolute;
-    left: 19px;
-    margin-right: 5px;
+span{
+    font-style:normal;
+    top: 1px;
+    left: 505px;
 }
-#email
-{
-    background-color: rgb(172, 127, 255);
-    position: absolute;
-    left: 95px;
-    margin-top: 2px;
-    width: 225px;
+#assunto, #email{
+    width: 200px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 0.5rem;  
 }
-#subject
-{
-    background-color: rgb(172, 127, 255);
-    position: absolute;
-    left: 95px;
-    margin-top: 2px;
-    width: 225px;
+textarea{
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 0.5rem;  
+    top: 15px;
+    width: 200px;
+    height: 100px;
 }
-#content
-{
-    background-color: rgb(172, 127, 255);
-    position: absolute;
-    left: 95px;
-    margin-top: 2px;
-    width: 225px;
+form{
+    border: 2px solid rgb(146, 146, 146);
+    top: 50px;
+    position: relative;
+    text-align:center;
 }
-#textarea
-{
-    position: absolute;
-    background-color: rgb(172, 127, 255);
+#centro{
+    position: relative;
+    text-align: center;
+    width: 40%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #10e6e6;
+    padding:120px 0;
 }
-
-#formulario button
-{
-    border-style: dashed;
-    /* position: absolute; */
-    bottom: 0.5em;
-    right: 10px;
-    background-color: rgb(172, 127, 255);
+h1{
+    position: relative;
+    top: -20px;
+    left: 10px;
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing:20px;
+    color:#f5506e;
 }
